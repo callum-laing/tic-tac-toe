@@ -18,18 +18,22 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 6rem;
+    font-weight: 900;
 }
 
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    background-color: white;
 }
 
 td {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #ccc;
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
     font-size: 48px;
     text-align: center;
     vertical-align: middle;
@@ -37,5 +41,5 @@ td {
 }
 
 td:hover {
-    background-color: #f9f9f9;
+    background-color: lightgrey;
 }
