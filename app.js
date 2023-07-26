@@ -19,17 +19,18 @@ function checkWinner(player) {
     [0, 4, 8],
     [2, 4, 6], // Diagonals
   ];
-}
-for (const combination of winningCombination) {
-  if (
-    board[combination[0]] === player &&
-    board[combination[1]] === player &&
-    board[combination[2]] === player
-  ) {
-    return true;
+
+  for (const combination of winningCombination) {
+    if (
+      board[combination[0]] === player &&
+      board[combination[1]] === player &&
+      board[combination[2]] === player
+    ) {
+      return true;
+    }
   }
+  return false;
 }
-return false;
 
 function isBoardFull() {
   return board.every((cell) => cell !== "");
