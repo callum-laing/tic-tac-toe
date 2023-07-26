@@ -12,28 +12,33 @@
 
 body {
     min-height: 100vh;
-    background-color: #d1edff;
+    background-color: #0B1119;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: white;
 }
 
 h1 {
     margin-bottom: 50px;
     margin-top: 50px;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 900;
+}
+
+.title {
+    color: #91DF0C;
 }
 
 table {
     border-collapse: collapse;
     margin: 0 auto;
-    background-color: white;
+    background-color: #B68954;
 }
 
 td {
     width: 150px;
     height: 150px;
-    border: 4px solid black;
+    border: 4px solid #1D1902;
     font-size: 48px;
     text-align: center;
     vertical-align: middle;
@@ -41,5 +46,5 @@ td {
 }
 
 td:hover {
-    background-color: lightgrey;
+    background-color: #DEDFDE;
 }
